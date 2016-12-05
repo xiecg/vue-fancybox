@@ -1,0 +1,27 @@
+{
+  "name": "vue-fancybox",
+  "version": "1.0.0",
+  "description": "Image preview component based on vue.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiecg/vue-fancybox.git"
+  },
+  "keywords": [
+    "vue",
+    "fancybox",
+    "fancy",
+    "box",
+    "lightbox",
+    "photoswipe"
+  ],
+  "author": "xiecg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiecg/vue-fancybox/issues"
+  },
+  "homepage": "https://github.com/xiecg/vue-fancybox#readme"
+}
