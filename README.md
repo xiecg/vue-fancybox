@@ -54,6 +54,7 @@ fancyBox Options:
 | this.imageList | A list of images. |
 
 this.imageList Options:
+
 | Option | Description | Type |
 | ----- | ----- | ----- |
 | width | The width of the image. | Number |
