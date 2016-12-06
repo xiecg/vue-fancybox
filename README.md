@@ -2,7 +2,9 @@
 [vue-fancybox]: https://xiecg.github.io/other/vue-fancybox/#/baseUsage
 
 # Overview
+
 Image preview component based on vue.js
+> More gestures are still in development.
 
 # DEMO
 
