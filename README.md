@@ -1,6 +1,5 @@
+[postcss-salad]: https://github.com/ElemeFE/postcss-salad
 [vue-fancybox]: https://xiecg.github.io/other/vue-fancybox/#/baseUsage
-
-# vue-fancybox
 
 # Overview
 Image preview component based on vue.js
@@ -21,9 +20,9 @@ import fancyBox from 'vue-fancybox';
 # Base Usage
 
 ```HTML
-  <div class="list" v-for="(n, index) in imageList" :data-index="index">
-    <img @click="open($event)" :src="n.url" alt="">
-  </div>
+<div class="list" v-for="(n, index) in imageList" :data-index="index">
+  <img @click="open($event)" :src="n.url">
+</div>
 ```
 
 ```JavaScript
@@ -44,3 +43,37 @@ export default {
   }
 }
 ```
+
+# Options
+
+fancyBox Options:
+
+| Option | Description |
+| ----- | ----- |
+| e.target | The current clicked image. |
+| this.imageList | A list of images. |
+
+this.imageList Options:
+| Option | Description | Type |
+| ----- | ----- | ----- |
+| width | The width of the image. | Number |
+| height | The height of the image. | Number |
+| url | The address of the image. | String |
+
+# example
+
+```Bash
+
+$ cd example
+
+$ npm install
+
+$ npm run dev
+
+```
+
+# prompt
+
+Need [postcss-salad] support
+
+
