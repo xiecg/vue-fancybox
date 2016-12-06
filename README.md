@@ -46,9 +46,9 @@ export default {
 
 # Options
 
-fancyBox Options:
+fancyBox Parameter:
 
-| Option | Description |
+| Parameter | Description |
 | ----- | ----- |
 | e.target | The current clicked image. |
 | this.imageList | A list of images. |
