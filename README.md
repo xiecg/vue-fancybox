@@ -1,3 +1,4 @@
+[vue-fancybox]: https://xiecg.github.io/other/vue-fancybox/#/baseUsage
 
 # vue-fancybox
 
@@ -5,6 +6,8 @@
 Image preview component based on vue.js
 
 # DEMO
+
+[vue-fancybox]
 
 # Install
 ```Bash
