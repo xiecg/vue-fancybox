@@ -3,7 +3,7 @@ import fancyBox from './fancyBox.vue';
 
 const FancyBoxConstructor = Vue.extend(fancyBox);
 
-Vue.directive('fancy-box-image', {
+Vue.directive('fancybox-thumbnail', {
 	inserted (el, binding) {
 		let style = el.getBoundingClientRect(),
 			width = binding.value[0], height = binding.value[1],
@@ -39,7 +39,7 @@ export default (el, imageList) => {
 		instance.visible = true;
 		instance.imageItems = imageList;
 		instance.imageIndex = Number(parent.dataset.index);
-		instance.activeUrl = instance.imageItems[instance.imageIndex].img;
+		instance.activeUrl = instance.imageItems[instance.imageIndex].url;
 
 		let zoom = instance.getZoomTransform(el);
 		let boundingClientRect = parent.getBoundingClientRect();

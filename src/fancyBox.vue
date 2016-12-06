@@ -35,13 +35,13 @@
 		<div v-show="visible" class="fancy-box-mask">
 			<div ref="fancyBoxWrapper" class="fancy-box-image-wrapper">
 				<div v-for="(image, index) in prev" :style="{ webkitTransform: 'translate3d(-'+ (index+1)*image.scaleWidth +'px, 0, 0)' }">
-					<div :style="{ webkitTransform: 'translate3d(0, '+ image.y +'px, 0)' }"><img :style="{ width: ''+ image.w +'px' }" :src="image.img"></div>
+					<div :style="{ webkitTransform: 'translate3d(0, '+ image.y +'px, 0)' }"><img :style="{ width: ''+ image.w +'px' }" :src="image.url"></div>
 				</div>
 				<div>
 					<div :style="activeStyle"><img :style="activeImageStyle" :src="activeUrl"></div>
 				</div>
 				<div v-for="(image, index) in next" :style="{ webkitTransform: 'translate3d('+ (index+1)*image.scaleWidth +'px, 0, 0)' }">
-					<div :style="{ webkitTransform: 'translate3d(0, '+ image.y +'px, 0)' }"><img :style="{ width: ''+ image.w +'px' }" :src="image.img"></div>
+					<div :style="{ webkitTransform: 'translate3d(0, '+ image.y +'px, 0)' }"><img :style="{ width: ''+ image.w +'px' }" :src="image.url"></div>
 				</div>
 			</div>
 		</div>
