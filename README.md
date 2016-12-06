@@ -20,9 +20,9 @@ import fancyBox from 'vue-fancybox';
   data () {
     return {
       imageList: [
-        {width: 900,height: 675,url: 'http://ocm0knkb1.bkt.clouddn.com/1-1.jpg'},
-        {width: 601,height: 1024,url: 'http://ocm0knkb1.bkt.clouddn.com/1-2.jpg'},
-        {width: 1024,height: 700,url: 'http://ocm0knkb1.bkt.clouddn.com/1-3.jpg'}
+        { width: 900, height: 675, url: 'http://ocm0knkb1.bkt.clouddn.com/1-1.jpg' },
+        { width: 601, height: 1024, url: 'http://ocm0knkb1.bkt.clouddn.com/1-2.jpg' },
+        { width: 1024, height: 700, url: 'http://ocm0knkb1.bkt.clouddn.com/1-3.jpg' }
       ]
     }
   },
