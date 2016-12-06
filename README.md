@@ -15,8 +15,16 @@ npm install vue-fancybox --save
 import fancyBox from 'vue-fancybox';
 ```
 
+# Base Usage
+
+```HTML
+  <div class="list" v-for="(n, index) in imageList" :data-index="index">
+    <img @click="open($event)" :src="n.url" alt="">
+  </div>
+```
+
 ```JavaScript
-{
+export default {
   data () {
     return {
       imageList: [
