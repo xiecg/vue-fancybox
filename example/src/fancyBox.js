@@ -39,7 +39,7 @@ export default (el, imageList) => {
 		instance.visible = true;
 		instance.imageItems = imageList;
 		instance.imageIndex = Number(parent.dataset.index);
-		instance.activeUrl = instance.imageItems[instance.imageIndex].img;
+		instance.activeUrl = instance.imageItems[instance.imageIndex].url;
 
 		let zoom = instance.getZoomTransform(el);
 		let boundingClientRect = parent.getBoundingClientRect();
