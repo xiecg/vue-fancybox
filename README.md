@@ -1,5 +1,6 @@
 [postcss-salad]: https://github.com/ElemeFE/postcss-salad
 [vue-fancybox]: https://xiecg.github.io/other/vue-fancybox/#/baseUsage
+[vue-fancybox]: https://xiecg.github.io/other/vue-fancybox/#/baseUsage
 
 # Overview
 
@@ -9,6 +10,8 @@ Image preview component based on vue.js
 # DEMO
 
 [vue-fancybox]
+
+<img src="https://xiecg.github.io/other/vue-fancybox/vue-fancybox-code.png">
 
 # Install
 ```Bash
