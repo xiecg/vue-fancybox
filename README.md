@@ -11,8 +11,6 @@ Image preview component based on vue.js
 
 [vue-fancybox]
 
-<img src="https://xiecg.github.io/other/vue-fancybox/vue-fancybox-code.png">
-
 # Install
 ```Bash
 npm install vue-fancybox --save
