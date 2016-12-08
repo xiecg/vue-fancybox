@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "vue-touch": "git://github.com/vuejs/vue-touch.git#next"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiecg/vue-fancybox.git"
