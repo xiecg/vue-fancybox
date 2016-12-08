@@ -251,13 +251,10 @@
 
 				if(endTime - this.startTime > 300) {
 					if(offsetX >= boundary){
-						//上一页
 						this.goPage('-1');
 					} else if(offsetX < 0 && offsetX < -boundary) {
-						//下一页
 						this.goPage('+1');
 					} else {
-						//留在本页
 						this.goPage('0');
 					};
 				} else {
