@@ -16,7 +16,7 @@
 
 <script>
 
-import fancyBox from '../../src/index.js';
+import fancyBox from 'vue-fancybox';
 
 export default {
   data() {
