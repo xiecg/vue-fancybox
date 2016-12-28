@@ -1,2 +1,1 @@
-import fancyBox from './fancyBox.js';
-module.exports = fancyBox;
+module.exports = require('./fancyBox.js');
