@@ -10,8 +10,8 @@
 
 <script>
 
-import fancyBox from '@/fancybox/index';
-// import fancyBox from 'vue-fancybox';
+// import fancyBox from '@/fancybox/index';
+import fancyBox from 'vue-fancybox';
 
 export default {
   data() {
